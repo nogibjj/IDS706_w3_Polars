@@ -1,34 +1,38 @@
 [![CI](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/0xhzx/IDS706-w1_Mini_Project/actions/workflows/cicd.yml)
 # Template for Python projects 
 
-## IDS-706 2023 fall Week 1 Mini-project
-Requirements: Demo - Create a Python GitHub template you use for the rest of class (.devcontainer, Makefile, GitHub Actions, requirements.txt, README.md)
+## IDS-706 2023 fall Week 2 Mini-project_Pandas_Script
+Requirements
+- Python script using Polars for descriptive statistics
+- Read a dataset (CSV or Excel)
+- Generate summary statistics (mean, median, standard deviation)
+- Create at least one data visualization
 
-Things included are:
 
-* `Makefile`
-    - Dependency management
-    - Automated build process
-    - Testing
-    - Linting and code quality [pylint, flake8, or black]
-    - Cleaning and maintenance
-* `Pytest`
-    - Just need to run `pytest` in the terminal
-    - A more effective method run `make test`
+# Target
+Analyze the iris features and summary them in both form and plots, using Polars (the latest version) instead of Pandas!
 
-* `pandas`
+# Dataset
+Iris dataset from sklearn
 
-* `Pylint`
+# CI/CD
+- Including `make install`, `make lint`, `make test`, `make format` and `make deploy`
+- `make lint` uses pylint with configuration in `.pylintrc`
+- Unit test cover 100%
 
-* `Dockerfile`
+# Result screenshot
 
-* `GitHub copilot`
+## CI/CD process
+![Alt text](image-1.png)
 
-* `jupyter` and `ipython` 
+## Summary statistics 
+![Summary](image.png)
 
-* A base set of libraries for devops and web
+## Data Visualization
 
-* `githubactions` 
-
-## Reference
-* [python-template by Noah Gift](https://github.com/nogibjj/python-template/tree/main)
+### Scatter plot
+![scatter_plot](iris_scatter_plot.png)
+### Box plot
+![box_plot](iris_box_plot.png)
+### Histogram plot
+![histogram_plot](iris_histogram.png)

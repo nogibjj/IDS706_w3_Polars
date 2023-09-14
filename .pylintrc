@@ -1,0 +1,4 @@
+[pylint]
+disable = R,C,E1101
+ignore-patterns = test_.*?py
+; pylint --disable=R,C --ignore-patterns=test_.*?py *.py mylib/*.py

@@ -22,6 +22,7 @@ scikit-learn==1.1.2
 matplotlib==3.6.0
 seaborn==0.12.0
 dask==2022.9.2
+polars
 
 #MLOps
 # gradio==3.4.1
