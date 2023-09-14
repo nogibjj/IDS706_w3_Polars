@@ -1,7 +1,7 @@
 [![CI](https://github.com/nogibjj/python-template/actions/workflows/cicd.yml/badge.svg)](https://github.com/0xhzx/IDS706-w1_Mini_Project/actions/workflows/cicd.yml)
 # Template for Python projects 
 
-## IDS-706 2023 fall Week 2 Mini-project_Pandas_Script
+## IDS-706 2023 fall Week  Mini-project_Polars_Script
 Requirements
 - Python script using Polars for descriptive statistics
 - Read a dataset (CSV or Excel)
